@@ -16,9 +16,6 @@ using System.Data.SqlClient;
 
 namespace wardyEx
 {
-    /// <summary>
-    /// Логика взаимодействия для Client.xaml
-    /// </summary>
     public partial class Client : UserControl
     {
         public Client()
