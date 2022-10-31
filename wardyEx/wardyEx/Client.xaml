@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="wardyEx.Client"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:wardyEx"
+             mc:Ignorable="d" 
+             Height="300" Width="1592" Background="#FF252525" Margin="10">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="209*"/>
+            <ColumnDefinition Width="587*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="image" Margin="10,10,128,10"/>
+        <Label FontSize="20" Foreground="White" x:Name="Idlabel" Content="id" HorizontalAlignment="Right" Margin="0,10,88,0" VerticalAlignment="Top"/>
+        <Label FontSize="20" Foreground="White" x:Name="FirstNamelabel" Content="first name" HorizontalAlignment="Left" Margin="-128,53,0,0" VerticalAlignment="Top" Width="424" Grid.Column="1" Height="36"/>
+        <Label FontSize="20" Foreground="White" x:Name="LastNamelabel" Content="last Name" HorizontalAlignment="Left" Margin="-128,94,0,0" VerticalAlignment="Top" Width="424" Grid.Column="1" Height="35"/>
+        <Label FontSize="20" Foreground="White" x:Name="BirthDatalabel" Content="Data" Margin="301,10,565,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label FontSize="20" Foreground="White" x:Name="Phonelabel" Content="Phone" Margin="301,52,570,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label FontSize="20" Foreground="White" x:Name="MidleNamelabel" Content="Midle Name" HorizontalAlignment="Left" Margin="-128,138,0,126" Width="424" Grid.Column="1"/>
+        <Label FontSize="20" Foreground="White" x:Name="EmailLabel" Content="Email" HorizontalAlignment="Left" Margin="-73,10,0,0" VerticalAlignment="Top" Width="203" Grid.Column="1"/>
+        <Label FontSize="20" Foreground="White" x:Name="Idlabel_Copy" Content="id" HorizontalAlignment="Right" Margin="0,10,103,0" VerticalAlignment="Top"/>
+        <Label FontSize="20" Foreground="White" x:Name="RegistrationDate" Content="Registration Date" HorizontalAlignment="Right" Margin="0,0,-125,10" VerticalAlignment="Bottom" Width="253"/>
+        <Label FontSize="20" Foreground="White" x:Name="Male" Content="Male" Margin="301,94,570,0" VerticalAlignment="Top" Grid.Column="1"/>
+
+        <Button x:Name="ToEditbutt" Content="Редактировать" Grid.Column="1" Margin="564,-62,10,-48" RenderTransformOrigin="0.5,0.5" Click="ToEditbutt_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-33.813"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="del_butt" Content="Удаление" Grid.Column="1" HorizontalAlignment="Right" Margin="0,0,-14,26" VerticalAlignment="Bottom" Width="163" Height="106" RenderTransformOrigin="0.5,0.5" Click="del_butt_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="14.911"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+    </Grid>
+</UserControl>

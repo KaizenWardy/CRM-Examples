@@ -1,0 +1,42 @@
+C:\Users\admin\Desktop\School\School\bin\Debug\School.exe.config
+C:\Users\admin\Desktop\School\School\bin\Debug\School.exe
+C:\Users\admin\Desktop\School\School\bin\Debug\School.pdb
+C:\Users\admin\Desktop\School\School\obj\Debug\School.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\School\School\obj\Debug\Controls\Client.g.cs
+C:\Users\admin\Desktop\School\School\obj\Debug\Windows\Clients.g.cs
+C:\Users\admin\Desktop\School\School\obj\Debug\App.g.cs
+C:\Users\admin\Desktop\School\School\obj\Debug\School_MarkupCompile.cache
+C:\Users\admin\Desktop\School\School\obj\Debug\School_MarkupCompile.lref
+C:\Users\admin\Desktop\School\School\obj\Debug\Controls\Client.baml
+C:\Users\admin\Desktop\School\School\obj\Debug\Windows\Clients.baml
+C:\Users\admin\Desktop\School\School\obj\Debug\School.g.resources
+C:\Users\admin\Desktop\School\School\obj\Debug\School.Properties.Resources.resources
+C:\Users\admin\Desktop\School\School\obj\Debug\School.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\School\School\obj\Debug\School.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\School\School\obj\Debug\School.exe
+C:\Users\admin\Desktop\School\School\obj\Debug\School.pdb
+C:\Users\admin\Desktop\School\School\obj\Debug\MainWindow.g.cs
+C:\Users\admin\Desktop\School\School\obj\Debug\MainWindow.baml
+C:\Users\admin\Desktop\School\School\obj\Debug\Windows\Edit.g.cs
+C:\Users\admin\Desktop\School\School\obj\Debug\Windows\Edit.baml
+F:\Новая папка (2)\Флешка\Маннанов\School\School\bin\Debug\School.exe.config
+F:\Новая папка (2)\Флешка\Маннанов\School\School\bin\Debug\School.exe
+F:\Новая папка (2)\Флешка\Маннанов\School\School\bin\Debug\School.pdb
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\School.csproj.AssemblyReference.cache
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\Controls\Client.g.cs
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\Windows\Clients.g.cs
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\MainWindow.g.cs
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\Windows\Edit.g.cs
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\App.g.cs
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\School_MarkupCompile.cache
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\School_MarkupCompile.lref
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\Controls\Client.baml
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\Windows\Clients.baml
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\MainWindow.baml
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\Windows\Edit.baml
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\School.g.resources
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\School.Properties.Resources.resources
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\School.csproj.GenerateResource.cache
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\School.csproj.CoreCompileInputs.cache
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\School.exe
+F:\Новая папка (2)\Флешка\Маннанов\School\School\obj\Debug\School.pdb

@@ -1,0 +1,28 @@
+﻿<Window x:Class="School.Windows.Clients"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:School.Windows"
+        mc:Ignorable="d"
+        Title="Clients" Height="450" Width="1000" Loaded="Window_Loaded">
+    <Grid>
+        <ScrollViewer Width="800" Background="White" HorizontalAlignment="Left" VerticalScrollBarVisibility="Hidden">
+            <WrapPanel x:Name="Clients_panel"/>
+        </ScrollViewer>
+        <ComboBox x:Name="Gender" HorizontalAlignment="Left" Margin="800,25,0,0" VerticalAlignment="Top" Width="182" SelectionChanged="Gender_SelectionChanged" Loaded="Gender_Loaded">
+            <ComboBoxItem>
+                <Label Content="Все"/>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <Label Content="М"/>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <Label Content="Ж"/>
+            </ComboBoxItem>
+        </ComboBox>
+        <TextBox x:Name="Search" Text="" HorizontalAlignment="Left" Height="23" Margin="800,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="Birthday_mouth" Content="ДР" HorizontalAlignment="Left" Margin="831,111,0,0" VerticalAlignment="Top" Width="110" Click="Birthday_mouth_Click"/>
+        <Button x:Name="Add_client" Content="Добавить нового" HorizontalAlignment="Left" Margin="805,154,0,0" VerticalAlignment="Top" Width="177" Click="Add_client_Click"/>
+    </Grid>
+</Window>
