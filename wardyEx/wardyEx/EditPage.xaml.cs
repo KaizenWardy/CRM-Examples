@@ -34,18 +34,9 @@ namespace wardyEx
 
         private void Savebutt_Click(object sender, RoutedEventArgs e)
         {
-            if (EditMail.Text.IndexOf("@") != -1 && EditMail.Text.IndexOf(".") != -1)
+            if (EditId.Content.ToString() == "")
             {
-
-            }
-            using (SqlConnection connection = new SqlConnection(@"
-                    Data Source = tcp:Unity;
-                    Initial Catalog = wardy;
-                    user ID = 201;
-                    Password = 201;"))
-            {
-                connection.Open();
-                SqlCommand command = new SqlCommand($@"
+                new Connect().SqlEditAddDel($@"
                         UPDATE [dbo].[Client]
                         SET [FirstName] = '{EditFName.Text}'
                         ,[LastName] ='{EditLName.Text}'
@@ -54,9 +45,11 @@ namespace wardyEx
                         ,[Email] ='{EditMail.Text}'
                         ,[Phone] ='{EditPhone.Text}'
                         ,[GenderCode] ='{comboBox.SelectedIndex + 1}'
-                        WHERE ID = '{EditId.Content}'", connection);
-
-                SqlCommand command_insert = new SqlCommand($@"
+                        WHERE ID = '{EditId.Content}'");
+            }
+            else
+            {
+                new Connect().SqlEditAddDel($@"
                         INSERT INTO [dbo].[Client]
                                    ([FirstName]
                                    ,[LastName]
@@ -67,22 +60,17 @@ namespace wardyEx
                                    ,[Phone]
                                    ,[GenderCode])
                              VALUES (
-                        '{EditFName.Text}',
-                        '{EditLName.Text}',
-                        '{EditMName.Text}',
-                        '{EditDate.Text}',
-                        '{DateTime.Now.ToShortDateString()}',
-                        '{EditMail.Text}',
-                        '{EditPhone.Text}',
-                        {comboBox.SelectedIndex + 1})", connection);
-
-                if (EditId.Content.ToString() != "")
-                    command.ExecuteNonQuery();
-                else
-                    command_insert.ExecuteNonQuery();
-                mainWindow.LoadData();
-                this.Close();
+                                '{EditFName.Text}',
+                                '{EditLName.Text}',
+                                '{EditMName.Text}',
+                                '{EditDate.Text}',
+                                '{DateTime.Now.ToShortDateString()}',
+                                '{EditMail.Text}',
+                                '{EditPhone.Text}',
+                                {comboBox.SelectedIndex + 1})");
             }
+            mainWindow.LoadData();
+            this.Close();
         }
     }
 }
